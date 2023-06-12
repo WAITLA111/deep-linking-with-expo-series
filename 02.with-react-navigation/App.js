@@ -7,7 +7,7 @@ import SettingsScreen from "./screens/SettingsScreen";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 
-const prefix = Linking.makeUrl("/");
+const prefix = Linking.createURL("/");
 
 const Stack = createStackNavigator();
 
